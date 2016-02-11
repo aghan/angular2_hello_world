@@ -1,5 +1,8 @@
 # An Sample Hello World application
 
+# Prerequisites
+You have have NodeJS, npm and Gulp installed
+
 ## Getting Started
 
  - Clone or download the repo from:
