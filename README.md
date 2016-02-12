@@ -103,7 +103,7 @@ npm -v
 gulp -v
 ```
 
-These commands should return you your Node,npm and gulp versions.
+These commands should return you your Node, npm and gulp versions.
 
 # Getting Started with our Angular Application
 
