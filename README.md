@@ -20,17 +20,20 @@ Now, go to your terminal and type this command:
 brew install node
 ```
 
+This process will automatically install npm, which couls be accessible via your terminal.
+
 **2. Via Node package installer**
 
  - Go to : https://nodejs.org/en/
  - Download the mature and dependable node version (v4.3.0) 
  - Install the package as we normally do on OSX
+ - This process will automatically install npm, which couls be accessible via your terminal.
 
 ### For Ubuntu
 
 For Ubuntu, there are two ways to install Node:
 
-**1. Via apt-getw:**
+**1. Via apt-get:**
 
 First make sure your apt-get package manager is updated via this command on your terminal:
 
@@ -56,10 +59,24 @@ sudo apt-get install nodejs-legacy
 
  - Go to : https://nodejs.org/en/
  - Download the mature and dependable node version (v4.3.0) 
- - Install the package as we normally do on Linux
+ - Install the package as we normally do on Ubuntu.
+ 
+These commands should return you Node and npm versions.
 
+### For Windows
 
-To make sure you have Node and NPM installed properly, run these two simple commands to see what version of each is installed:
+For Windows, we recommend downloading the NodeJS installer
+
+**Node package installer for Windows**
+
+ - Go to : https://nodejs.org/en/
+ - Download the mature and dependable node version (v4.3.0) 
+ - Install the Node program via the Windows installer you just downloaded.
+ - This process will automatically install npm, which couls be accessible via your NodeJS command prompt.
+
+### Final Checks
+
+To make sure you have Node and npm are installed properly, run these two simple commands to see what version of each is installed:
 
 ```
 node -v
@@ -67,8 +84,6 @@ node -v
 ```
 npm -v
 ```
- 
-These commands should return you Node and npm versions.
 
 ## Getting Started
 
