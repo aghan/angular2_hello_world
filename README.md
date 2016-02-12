@@ -1,7 +1,10 @@
-# An Sample Hello World application
+## An Sample Hello World application
 
-# Prerequisites
+## Prerequisites
 You have have NodeJS, npm and Gulp installed
+
+## NodeJS
+
 
 ## Getting Started
 
