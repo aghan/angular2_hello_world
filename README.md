@@ -74,9 +74,25 @@ For Windows, we recommend downloading the NodeJS installer
  - Install the Node program via the Windows installer you just downloaded.
  - This process will automatically install npm, which couls be accessible via your NodeJS command prompt.
 
+## Gulp
+
+Gulp is an automated front-end task runner that we would need to do our front end tasks.
+
+ - Open your terminal or open the NodeJS Command Prompt in case you're using Windows, this command prompt gets installed on your machine as we install Node package.
+ - Type the following command:
+ 
+```
+npm install -g gulp
+```
+Use "sudo" as a prefix to this command if you get permission errors:
+
+```
+sudo npm install -g gulp
+```
+
 ### Final Checks
 
-To make sure you have Node and npm are installed properly, run these two simple commands to see what version of each is installed:
+To make sure you have Node, npm and Gulp installed properly, run these three simple commands in your terminal: (Windows users should use the NodeJs command prompt)
 
 ```
 node -v
@@ -84,11 +100,21 @@ node -v
 ```
 npm -v
 ```
+```
+gulp -v
+```
 
-## Getting Started
+# Getting Started with our Angular Application
 
- - Clone or download the repo from:
- - Run `npm install`
- - Run `gulp serve`
+ - Clone this repo by typing this command in your terminal (Windows users could use the GIT installer available on the web to install GIT and Git Bash, a command prompt to access git commands)
+
+```
+git clone https://github.com/aghan/angular2_hello_world.git
+```
+ 
+ Now navigate to the cloned repo and run the following commands:
+ 
+ - `npm install`
+ - `gulp serve`
 
 This will start a development server and launch your browser to show the application in action.
