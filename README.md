@@ -1,33 +1,33 @@
 # An Sample Hello World application
 
 # Prerequisites
-You have have NodeJS, npm and Gulp installed
+You should have NodeJS, npm and Gulp installed. Follow the below instructions to install these items.
 
 ## NodeJS
 
-Node is used to run standalone JS program on a server. We will use NodeJS to run our package manager (nam) and Gulp, an automated task runner
+NodeJS(or Node) is used to run standalone JS program on a server. We will use NodeJS as an environment to run our package manager (npm) and Gulp, an automated task runner.
 
 ### For OSX
 For OSX, there are two ways to install Node:
 
 **1. Via Homebrew:**
 
-First make sure you have Homebrew package manager installed: Check this link out for installing Homebrew: http://coolestguidesontheplanet.com/installing-homebrew-on-os-x-el-capitan-10-11-package-manager-for-unix-apps/
+First make sure you have the Homebrew package manager installed. Check this link out for installing Homebrew: http://coolestguidesontheplanet.com/installing-homebrew-on-os-x-el-capitan-10-11-package-manager-for-unix-apps/
 
-Now, go to your terminal and type this command:
+Now, assuming you have Homebrew installed, go to your terminal and type this command:
 
 ```
 brew install node
 ```
 
-This process will automatically install npm, which couls be accessible via your terminal.
+This process will automatically install Node and npm, which could be accessible via your terminal.
 
 **2. Via Node package installer**
 
  - Go to : https://nodejs.org/en/
  - Download the mature and dependable node version (v4.3.0) 
- - Install the package as we normally do on OSX
- - This process will automatically install npm, which couls be accessible via your terminal.
+ - Install the package as we normally do on OSX.
+ - This process will automatically install npm, which could be accessible via your terminal.
 
 ### For Ubuntu
 
@@ -35,7 +35,7 @@ For Ubuntu, there are two ways to install Node:
 
 **1. Via apt-get:**
 
-First make sure your apt-get package manager is updated via this command on your terminal:
+First make sure your apt-get package manager is updated by typing this command on your terminal:
 
 ```
 sudo apt-get update
@@ -60,12 +60,11 @@ sudo apt-get install nodejs-legacy
  - Go to : https://nodejs.org/en/
  - Download the mature and dependable node version (v4.3.0) 
  - Install the package as we normally do on Ubuntu.
- 
-These commands should return you Node and npm versions.
+
 
 ### For Windows
 
-For Windows, we recommend downloading the NodeJS installer
+For Windows, we recommend downloading the NodeJS installer. Follow the steps below:
 
 **Node package installer for Windows**
 
@@ -103,6 +102,8 @@ npm -v
 ```
 gulp -v
 ```
+
+These commands should return you your Node,npm and gulp versions.
 
 # Getting Started with our Angular Application
 
