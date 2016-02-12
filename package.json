@@ -1,8 +1,8 @@
 {
-  "name": "angular2-todo",
+  "name": "angular2_sample",
   "version": "1.0.0",
-  "description": "A todo list application built with Angular 2.0",
-  "author": "ceberhardt@scottlogic.com",
+  "description": "A sample app based upon the angular seed project",
+  "author": "aditya.ghan@blisstering.com",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.10.0",
